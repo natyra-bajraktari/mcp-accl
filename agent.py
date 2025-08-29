@@ -92,11 +92,7 @@ MANAGED_MCP_SERVER_URLS = [
 #
 import os
 workspace_client = WorkspaceClient(
-     #host="https://adb-984752964297111.11.azuredatabricks.net/",
-     #client_id=os.getenv("DATABRICKS_CLIENT_ID"),
-     #client_secret=os.getenv("DATABRICKS_CLIENT_SECRET"),
-     profile="mcp-sp-health",
-     #auth_type="oauth-m2m",   # Enables machine-to-machine OAuth
+     profile="mcp-sp-health"
  )
 
 # Custom MCP Servers: Add URLs below if needed (requires custom setup and OAuth above)
