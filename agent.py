@@ -83,7 +83,7 @@ workspace_client = WorkspaceClient()
 # Managed MCP Servers: Ready to use with default settings above
 host = workspace_client.config.host
 MANAGED_MCP_SERVER_URLS = [
-    f"{host}/api/2.0/mcp/genie/01f076c46ca8181ba15b996ff7462de2",
+    f"{host}/api/2.0/mcp/genie/01f06df2f7b811ca92d95de566504104",
 ]
 
 # ----- Advanced (optional): Custom MCP Server with OAuth -----
