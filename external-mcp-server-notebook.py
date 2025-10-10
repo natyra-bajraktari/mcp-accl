@@ -16,12 +16,26 @@
 # MAGIC To use an external MCP, you first need to register it as an **HTTP connection** in Databricks:
 # MAGIC
 # MAGIC 1. Navigate to Catalog and **Create a Connections** in your Databricks workspace.
+# MAGIC
+# MAGIC
 # MAGIC 2. Create a new **HTTP connection**. Add authentication details if required (e.g., API key).
+# MAGIC
+# MAGIC
 # MAGIC <img src="https://github.com/natyra-bajraktari/mcp-accl/blob/add_external_mcp/img/conn1.png?raw=true" style="width: 800px; margin-left: 10px">
+# MAGIC
+# MAGIC
 # MAGIC 3. Provide the external MCP server endpoint (e.g., Bright Data MCP endpoint).
+# MAGIC
+# MAGIC
 # MAGIC <img src="https://github.com/natyra-bajraktari/mcp-accl/blob/add_external_mcp/img/conn2.png?raw=true" style="width: 800px; margin-left: 10px">
+# MAGIC
+# MAGIC
 # MAGIC 4. Mark the checkbox **"Is MCP connection"** to indicate this is an MCP server.
+# MAGIC
+# MAGIC
 # MAGIC <img src="https://github.com/natyra-bajraktari/mcp-accl/blob/add_external_mcp/img/conn3.png?raw=true" style="width: 800px; margin-left: 10px">
+# MAGIC
+# MAGIC
 # MAGIC Once created, the external MCP server will be available for your agents to use.
 # MAGIC
 # MAGIC
@@ -48,6 +62,7 @@
 # MAGIC For example, you could ask Bright Data MCP to fetch structured data from the web or run specific queries it supports.  
 # MAGIC
 # MAGIC <img src="https://github.com/natyra-bajraktari/mcp-accl/blob/add_external_mcp/img/play.png?raw=true" style="width: 800px; margin-left: 10px">
+# MAGIC
 # MAGIC
 # MAGIC You can also inspect the **View Trace** after each response to see the tool calls and confirm that the Bright Data MCP server was invoked.
 # MAGIC
