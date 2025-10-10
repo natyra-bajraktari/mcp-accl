@@ -10,6 +10,6 @@ This repository demonstrates how to use **Model Context Protocol (MCP)** options
 It includes example notebooks and a lightweight custom MCP server implementation.
 
 📘 **Starting point:**  
-Begin with [`introduction.ipynb`](./introduction.ipynb), which provides an overview and walks through the main concepts and setup steps.
+Begin with [`introduction.ipynb`](./introduction.ipynb), which provides an overview and walks through the main concepts and code steps.
 
 ---
