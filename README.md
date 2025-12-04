@@ -11,3 +11,4 @@ This repository demonstrates how to use **Model Context Protocol (MCP)** options
 📘 **Starting point:**  
 Begin with [`introduction.py`](./introduction.py), which provides an overview and walks through the main concepts and code steps.
 
+Additionally, if you would like to see how mcp can be leveraged with vibecoding to simplify developing in Databricks, get started with this [`README.md`](./vibe-databricks/README.md) file.
