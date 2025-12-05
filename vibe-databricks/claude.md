@@ -71,6 +71,7 @@ For direct execution on Databricks clusters:
 
 ### 1. General Deployment Instructions
 - When the user says or asks to "deploy the code or test it to Databricks", use the databricks-dev-mcp MCP you have it available.
+- When the user only asks to deploy the ML pipeline or any other pipeline end-to-end in Databricks, you should package the code with dabs and deploy the bundle as a pipeline in Databricks first and then additionally ask about GitHub Actions settings.
 - Do NOT run anything locally or simulate results.
 - Create the entire codebase locally inside its own folder within the main directory (the vibe-databricks directory). Please don’t place the new files directly into the main directory — otherwise they will mix with the existing vibe-code setup. 
 - After any code change:
